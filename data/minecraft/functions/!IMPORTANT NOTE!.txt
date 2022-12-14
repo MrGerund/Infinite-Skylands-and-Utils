@@ -1,0 +1,2 @@
+if you change the name of the deathcounter in your world, make sure to change it in the filed "hometp" as well.
+7th line from above, end of the row displays the name which you should edit to match your deathcounter, can't miss it.

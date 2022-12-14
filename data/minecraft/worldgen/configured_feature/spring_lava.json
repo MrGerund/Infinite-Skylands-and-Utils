@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 140
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range_very_biased",
+              "config": {
+                "maximum": 256,
+                "bottom_offset": 6,
+                "top_offset": 2
+              }
+            },
+            "feature": {
+              "type": "minecraft:spring_feature",
+              "config": {
+                "state": {
+                  "Name": "minecraft:lava",
+                  "Properties": {
+                    "falling": "true"
+                  }
+                },
+                "rock_count": 4,
+                "hole_count": 1,
+                "requires_block_below": true,
+                "valid_blocks": [
+                  "minecraft:stone",
+                  "minecraft:granite",
+                  "minecraft:diorite",
+                  "minecraft:andesite"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

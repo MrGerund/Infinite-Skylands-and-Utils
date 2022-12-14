@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "has_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_phantom_membrane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wet_sponge"
+    ]
+  }
+}

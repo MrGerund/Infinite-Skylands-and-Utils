@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "settings": {
+      "name": "minecraft:floating_islands",
+      "bedrock_roof_position": -10,
+      "bedrock_floor_position": -10,
+      "sea_level": 0,
+      "disable_mob_generation": true,
+      "default_block": {
+        "Name": "minecraft:stone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "noise": {
+        "height": 132,
+        "density_factor": -3,
+        "density_offset": 9,
+        "size_horizontal": 2,
+        "size_vertical": 2,
+        "simplex_surface_noise": true,
+        "random_density_offset": false,
+        "island_noise_override": true,
+        "sampling": {
+          "xz_scale": 1,
+          "y_scale": 1,
+          "xz_factor": 360,
+          "y_factor": 340
+        },
+        "bottom_slide": {
+          "target": -11,
+          "size": 63,
+          "offset": 0
+        },
+        "top_slide": {
+          "target": -2750,
+          "size": 51,
+          "offset": -46
+        }
+      },
+      "structures": {
+        "stronghold": {
+          "distance": 50,
+          "spread": 60,
+          "count": 123
+        },
+        "structures": {
+          "minecraft:jungle_pyramid": {
+            "spacing": 10,
+            "separation": 7,
+            "salt": 1
+          },
+          "minecraft:ruined_portal": {
+            "spacing": 11,
+            "separation": 7,
+            "salt": 1
+          },
+          "minecraft:pillager_outpost": {
+            "spacing": 55,
+            "separation": 40,
+            "salt": 0
+          },
+          "minecraft:swamp_hut": {
+            "spacing": 10,
+            "separation": 8,
+            "salt": 4
+          },
+          "minecraft:igloo": {
+            "spacing": 3,
+            "separation": 1,
+            "salt": 2
+          },
+          "minecraft:stronghold": {
+            "spacing": 65,
+            "separation": 32,
+            "salt": 4
+          }
+        }
+      }
+    },
+    "biome_source": {
+      "type": "minecraft:vanilla_layered",
+      "seed": 0,
+      "large_biomes": false
+    }
+  }
+}

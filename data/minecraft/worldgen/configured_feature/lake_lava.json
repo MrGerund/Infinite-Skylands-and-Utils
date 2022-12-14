@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:lava_lake",
+      "config": {
+        "chance": 28
+      }
+    },
+    "feature": {
+      "type": "minecraft:lake",
+      "config": {
+        "state": {
+          "Name": "minecraft:lava",
+          "Properties": {
+            "level": "15"
+          }
+        }
+      }
+    }
+  }
+}

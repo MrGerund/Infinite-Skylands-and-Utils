@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": {
+          "base": 30,
+          "spread": 6
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 100,
+                "bottom_offset": 8,
+                "top_offset": 10
+              }
+            },
+            "feature": {
+              "type": "minecraft:ore",
+              "config": {
+                "state": {
+                  "Name": "minecraft:nether_quartz_ore"
+                },
+                "size": 16,
+                "target": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:netherrack"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

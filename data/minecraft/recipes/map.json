@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "ECE",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ghast_tear"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "C": {
+            "item": "minecraft:compass"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:map",
+        "count": 1
+    }
+}

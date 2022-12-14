@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 105
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 180,
+                "bottom_offset": 0,
+                "top_offset": 0
+              }
+            },
+            "feature": {
+              "type": "minecraft:monster_room",
+              "config": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

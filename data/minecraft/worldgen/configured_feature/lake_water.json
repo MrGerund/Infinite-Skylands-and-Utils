@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:water_lake",
+      "config": {
+        "chance": 75
+      }
+    },
+    "feature": {
+      "type": "minecraft:lake",
+      "config": {
+        "state": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level": "0"
+          }
+        }
+      }
+    }
+  }
+}

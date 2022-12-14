@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #D",
+        " H#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:quartz"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "H": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "/": {
+            "item": "minecraft:end_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}
